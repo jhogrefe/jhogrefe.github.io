@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Seeing red in Ruby! This site will track my progress as I jump
   into web programming and beyond...
 url: "http://jhogrefe.github.io"
-twitter_username: https://twitter.com/MacAppware
+twitter_username: MacAppware
 github_username:  jhogrefe
 
 # Build settings
