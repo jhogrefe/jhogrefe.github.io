@@ -24,9 +24,10 @@ dc1 = DinnerClub(["John", "Paul", "Ringo", "George"])
 
 and this will now create members as an array.
 
-You might then ask yourself "What happens when someone initially only passes a single parameter?" You can counter this by using "raise" to call an error if they try this:
+You might then ask yourself **"What happens when someone initially only passes a single parameter?"** You can counter this by using "raise" to call an error if they try this:
 
-`class DinnerClub
+```
+class DinnerClub
 
   def initialize(total_bill, members)
     if !members.is_a(Array)
@@ -35,6 +36,7 @@ You might then ask yourself "What happens when someone initially only passes a s
     @members = members
     @total_bill = total_bill
   end
-end`
+end
+```
 
 Sumeet mentioned that you might gain more flexibility in your code if you aren't defining the instance variable from the get-go, but this is just another way to do what you want so I thought I would share it...
